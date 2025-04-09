@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda profesional de ropa de anime para parejas, amigos e individual">
+    <title>AnimeStyle | Tienda Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpeg" alt="AnimeStyle Logo" loading="lazy">
+                    <span>AnimeStyle</span>
+                </a>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#">Catálogos <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-column">
+                                <h4>Para Parejas</h4>
+                                <a href="catalogo-parejas-anime.html">Colección Anime</a>
+                                <a href="#" class="coming-soon">Colección Danmei <span>(Próximamente)</span></a>
+                            </div>
+                            <div class="dropdown-column">
+                                <h4>Para Amigos</h4>
+                                <a href="catalogo-amigos-anime.html">Colección Anime</a>
+                                <a href="catalogo-amigos-danmei.html">Colección Danmei</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <h4>Individual</h4>
+                                <a href="catalogo-individual-anime.html">Colección Anime</a>
+                                <a href="catalogo-individual-danmei.html">Colección Danmei</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="novedades.html">Novedades</a></li>
+                    <li><a href="blog.html">Blog Otaku</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="search-btn" aria-label="Buscar"><i class="fas fa-search"></i></button>
+                <div class="cart-icon">
+                    <a href="carrito.html" class="cart-btn" aria-label="Carrito">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <div class="mini-cart"></div>
+                </div>
+                <button class="hamburger-btn" aria-label="Menú"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Viste tu pasión por el anime</h1>
+                <p class="subtitle">Diseños exclusivos para fans, parejas y grupos de amigos</p>
+                <div class="cta-buttons">
+                    <a href="#colecciones" class="btn btn-primary">Ver colección</a>
+                    <a href="#novedades" class="btn btn-outline">Novedades</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de características -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck-fast"></i>
+                    </div>
+                    <h3>Envío Express</h3>
+                    <p>Recibe tus productos en 24-48 horas en áreas metropolitanas</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shirt"></i>
+                    </div>
+                    <h3>Diseños Exclusivos</h3>
+                    <p>Artículos únicos que no encontrarás en otras tiendas</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Hecho por Fans</h3>
+                    <p>Creado por otakus para otakus</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Soporte Premium</h3>
+                    <p>Asesoramiento especializado 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de colecciones -->
+    <section class="collections-section" id="colecciones">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestras Colecciones</h2>
+                <p class="section-subtitle">Descubre nuestras líneas exclusivas</p>
+            </div>
+            
+            <div class="collections-grid">
+                <a href="catalogo-parejas-anime.html" class="collection-card parejas-card">
+                    <div class="collection-info">
+                        <h3>Parejas Anime</h3>
+                        <p>Diseños que combinan perfectamente</p>
+                        <span class="btn btn-collection">Ver colección</span>
+                    </div>
+                </a>
+                
+                <a href="catalogo-amigos-anime.html" class="collection-card amigos-card">
+                    <div class="collection-info">
+                        <h3>Amigos Anime</h3>
+                        <p>Para todo tu grupo otaku</p>
+                        <span class="btn btn-collection">Ver colección</span>
+                    </div>
+                </a>
+                
+                <a href="catalogo-individual-anime.html" class="collection-card individual-card">
+                    <div class="collection-info">
+                        <h3>Individual Anime</h3>
+                        <p>Expresa tu estilo único</p>
+                        <span class="btn btn-collection">Ver colección</span>
+                    </div>
+                </a>
+                
+                <a href="catalogo-danmei.html" class="collection-card danmei-card">
+                    <div class="collection-info">
+                        <h3>Colección Danmei</h3>
+                        <p>Para los amantes de BL</p>
+                        <span class="btn btn-collection">Descubrir</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de productos destacados -->
+    <section class="featured-products" id="destacados">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Productos Destacados</h2>
+                <div class="section-controls">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="parejas">Parejas</button>
+                    <button class="filter-btn" data-filter="amigos">Amigos</button>
+                    <button class="filter-btn" data-filter="individual">Individual</button>
+                    <button class="filter-btn" data-filter="nuevo">Nuevos</button>
+                </div>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Los productos se cargarán dinámicamente con JavaScript -->
+            </div>
+            
+            <div class="section-footer">
+                <a href="catalogo.html" class="btn btn-outline">Ver catálogo completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de novedades -->
+    <section class="news-section" id="novedades">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Últimas Novedades</h2>
+                <p class="section-subtitle">Mantente al día con nuestros lanzamientos</p>
+            </div>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="img/evento 1.jpg" alt="Nueva colección" loading="lazy">
+                        <span class="news-badge">Nuevo</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-11-15">15 Noviembre 2023</time>
+                        <h3>Lanzamiento: Colección Invierno 2023</h3>
+                        <p>Descubre nuestros nuevos diseños inspirados en los animes de temporada</p>
+                        <a href="novedad-coleccion-invierno.html" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="img/evento 2.jpg" alt="Evento especial" loading="lazy">
+                        <span class="news-badge">Evento</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-12-01">1 Diciembre 2023</time>
+                        <h3>Black Friday Otaku - 50% de descuento</h3>
+                        <p>Prepárate para nuestras ofertas exclusivas en mercancía limitada</p>
+                        <a href="evento-black-friday.html" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="img/evento 3.jpg" alt="Colaboración" loading="lazy">
+                        <span class="news-badge">Colaboración</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-11-05">5 Noviembre 2023</time>
+                        <h3>Colaboración con estudio de anime</h3>
+                        <p>Próximamente: productos exclusivos de tu serie favorita</p>
+                        <a href="colaboracion-estudio.html" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-subtitle">Más de 5,000 otakus felices</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Las camisetas de pareja son increíbles, la calidad superó nuestras expectativas y recibimos muchos cumplidos y esa gisseth no se baña."</p>
+                    <div class="testimonial-author">
+                        <img src="img/comentario.jpg" alt="Laura y Carlos" loading="lazy">
+                        <div>
+                            <h4>Laura y Carlos</h4>
+                            <span>Fanáticos de Kimetsu no Yaiba</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Compramos las camisetas para todo nuestro grupo de amigos y quedaron geniales. ¡Todos quieren saber dónde las compramos!"</p>
+                    <div class="testimonial-author">
+                        <img src="img/comentario2.jpg" alt="Grupo Otaku" loading="lazy">
+                        <div>
+                            <h4>Grupo Otaku</h4>
+                            <span>Amantes de Shingeki no Kyojin</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"La calidad de las prendas es excelente, el estampado no se decolora y el envío llegó antes de lo esperado. ¡Volveré a comprar!"</p>
+                    <div class="testimonial-author">
+                        <img src="img/comentario 3.jpg" alt="María González" loading="lazy">
+                        <div>
+                            <h4>María González</h4>
+                            <span>Fan de Jujutsu Kaisen</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Únete a la comunidad AnimeStyle</h2>
+                    <p>Recibe ofertas exclusivas, novedades y contenido especial para fans</p>
+                </div>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit" class="btn btn-primary">Suscribirse</button>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="privacy-policy" required>
+                        <label for="privacy-policy">Acepto la política de privacidad</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="img/logo.jpeg" alt="AnimeStyle Logo" loading="lazy">
+                        <span>AnimeStyle</span>
+                    </div>
+                    <p>Tienda especializada en ropa de anime para parejas, amigos e individual. Diseños exclusivos para verdaderos fans.</p>
+                    <div class="social-links">
+                        <a href="" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@superbased_bodyworks/shorts" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Catálogos</h3>
+                    <ul>
+                        <li><a href="catalogo-parejas-anime.html">Parejas Anime</a></li>
+                        <li><a href="catalogo-amigos-anime.html">Amigos Anime</a></li>
+                        <li><a href="catalogo-amigos-danmei.html">Amigos Danmei</a></li>
+                        <li><a href="catalogo-individual-anime.html">Individual Anime</a></li>
+                        <li><a href="catalogo-individual-danmei.html">Individual Danmei</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Información</h3>
+                    <ul>
+                        <li><a href="nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="blog.html">Blog Otaku</a></li>
+                        <li><a href="tallas.html">Guía de tallas</a></li>
+                        <li><a href="envios.html">Envíos y entregas</a></li>
+                        <li><a href="devoluciones.html">Devoluciones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terminos.html">Términos y condiciones</a></li>
+                        <li><a href="privacidad.html">Política de privacidad</a></li>
+                        <li><a href="cookies.html">Política de cookies</a></li>
+                        <li><a href="aviso-legal.html">Aviso legal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Otaku 123, Bogotá, Colombia</li>
+                        <li><i class="fas fa-phone"></i> +57 310 495 1967</li>
+                        <li><i class="fas fa-envelope"></i> info@animestyle.com</li>
+                        <li><i class="fas fa-clock"></i> Lunes a Sábado: 9am - 7pm</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa" title="Visa"></i>
+                    <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                    <i class="fab fa-cc-amex" title="American Express"></i>
+                    <i class="fab fa-cc-paypal" title="PayPal"></i>
+                    <i class="fab fa-cc-discover" title="Discover"></i>
+                </div>
+                <p>&copy; 2023 AnimeStyle. Todos los derechos reservados. No afiliados a los estudios de anime.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/573104951967" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
